@@ -21,11 +21,12 @@ The module will create the VPC, the subnet, and the required firewalls. It will 
 3. pass down the cert name in next steps
 
 ## Run the terraform workflow from terraform-google-terraform-enterprise/examples/root-example 
-  ### Architecture
-  ![basic diagram](https://github.com/hashicorp/terraform-google-terraform-enterprise/blob/master/assets/gcp_diagram.jpg?  raw=true)
+### Architecture
+![basic diagram](https://github.com/hashicorp/terraform-google-terraform-enterprise/blob/master/assets/gcp_diagram.jpg?raw=true)
+_example architecture_
 
 
-Create the approriate var files or fill in the variables in main.tf 
+   Create the approriate var files or fill in the variables in main.tf 
 
 4. Initialize Terraform and run a plan. If you are running Terraform from the CLI, you can do this by navigating to the configuration's directory and running:
 
