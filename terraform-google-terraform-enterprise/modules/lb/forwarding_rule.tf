@@ -10,8 +10,8 @@ resource "google_compute_global_forwarding_rule" "https" {
 resource "google_compute_target_https_proxy" "tfe" {
   name             = "${var.prefix}-https-proxy"
   url_map          = "${google_compute_url_map.tfe.self_link}"
-  ssl_certificates = ["${var.cert}"]
-  ssl_policy       = "${var.sslpolicy}"
+/*   ssl_certificates = ["${var.cert}"]
+  ssl_policy       = "${var.sslpolicy}" */
 
-  #ssl_certificates = ["${file("${path.module}/${var.cert}")}"]
+  ssl_certificates = ["${file("${path.module}/${var.certificate}")}"]
 }

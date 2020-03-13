@@ -1,0 +1,18 @@
+#  Local .terraform directories
+**/.terraform*
+# **/packer/
+**/certs/*
+**/temp/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# JSON files
+*.json
+
+#local files 
+*.DS_Store
+
+# license file
+*.rli

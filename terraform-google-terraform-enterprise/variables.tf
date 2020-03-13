@@ -49,10 +49,10 @@ variable "public_ip" {
   description = "the public IP for the load balancer to use"
 }
 
-variable "ssl_policy" {
+/* variable "ssl_policy" {
   type        = "string"
   description = "SSL policy for the cert"
-}
+} */
 
 variable "subnet" {
   type        = "string"

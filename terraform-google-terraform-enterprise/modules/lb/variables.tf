@@ -18,10 +18,10 @@ variable "domain" {
   description = "domain"
 }
 
-variable "sslpolicy" {
+/* variable "sslpolicy" {
   type        = "string"
   description = "SSL policy for the cert"
-}
+} */
 
 variable "frontenddns" {
   type        = "string"
